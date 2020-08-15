@@ -1,80 +1,69 @@
 body {
-	font-family: "Open Sans", sans-serif;
-}
+  font-family: "Open Sans", sans-serif; }
 
 h1,
 h2,
 h3 {
-	font-family: "lobster", cursive;
-}
+  font-family: "Lobster", cursive; }
 
 h2 {
-	color: blue;
-}
+  color: #3046c5; }
 
 header h2 {
-	color: white;
-}
+  color: #cec8ff; }
 
 .site-footer {
-	background-image: linear-gradient(#cec8ff, white);
-	padding: 20px 0;
-}
+  background-image: linear-gradient(#cec8ff, white);
+  padding: 20px 0; }
 
 .jumbotron {
-	margin: 0;
-	padding: 30px;
-	background-image: linear-gradient(to right, #5637dd, #3046c5, #60106b);
-	color: white;
-}
+  margin: 0;
+  padding: 30px;
+  background-image: linear-gradient(to right, #5637dd, #3046c5, #60106b);
+  color: white; }
 
 .row-content {
-	padding: 50px 0;
-	border-bottom: 1px ridge;
-	min-height: 200px;
-}
+  padding: 50px 0;
+  border-bottom: 1px ridge;
+  min-height: 200px; }
 
 .navbar {
-	background-color: #901cad;
-}
+  background-color: #901cad; }
 
 .tab-content {
-	border: 1px solid #ddd;
-	border-top: none;
-	padding: 10px;
-}
+  border: 1px solid #ddd;
+  border-top: none;
+  padding: 10px; }
 
 .carousel-caption {
-	background-color: rgba(0, 0, 0, 0.5);
-}
+  background-color: rgba(0, 0, 0, 0.5); }
 
 .carousel {
-	border: solid #5637dd;
-}
+  border: solid #5637dd; }
 
 .campGrounds {
-	background-color: #02132c;
-}
+  background-color: #02132c; }
+
 .card-body p {
-	color: black;
-}
+  color: black; }
 
 .contactInfo {
-	color: black;
-}
+  color: black; }
 
 label {
-	color: black;
-}
+  color: black; }
 
 .bg-textbox {
-	background-color: white;
-}
+  background-color: white; }
 
 .bg-color {
-	background-color: rgb(0, 166, 255);
-}
+  background-color: #00a6ff; }
 
 .bg-buttoncolor {
-	background-color: rgb(0, 166, 255);
-}
+  background-color: #00a6ff; }
+
+#carouselButton {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 100; }
